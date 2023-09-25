@@ -5,8 +5,21 @@
     box-sizing: border-box;
 }
 
-/*HEADER*/
+h1{
+    font-size: 4rem;
+    margin: 2rem 0; 
+}
 
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rosso{
+    color: rgb(97, 8, 43);
+}
+
+/*HEADER*/
 /*NAV BAR*/
 .header-nav{
     width: 100%;
@@ -28,12 +41,6 @@
 }
 
 /*HERO*/
-
-h1{
-    font-size: 4rem;
-    margin: 2rem 0; 
-}
-
 .container-header{
     width: 100%;
     margin-top: 100px;
@@ -177,4 +184,10 @@ h1{
     width:calc(100% / 2) ;
     background-color: aquamarine;
     border: 1px solid black;
+}
+
+/*SEZIONE DOMANDE*/
+.container-ask{
+    width: 100%;
+    padding: 4rem;
 }
