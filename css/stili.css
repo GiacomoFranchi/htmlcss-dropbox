@@ -3,11 +3,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Open Sans', sans-serif;
 }
 
+/*COMMON*/
 h1{
     font-size: 4rem;
     margin: 2rem 0; 
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    align-self: center;
 }
 
 .flex{
@@ -19,25 +28,44 @@ h1{
     color: rgb(97, 8, 43);
 }
 
+.btn{
+    color: white;
+    background-color:rgb(0, 97, 255) ;
+}
+
 /*HEADER*/
 /*NAV BAR*/
 .header-nav{
     width: 100%;
-    min-height: 100px;
     display: flex;
     justify-content: space-between;
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 9999;
-    background-color: blue;
-    padding: 1rem;
+    max-height: 70px;
+    background-color: white;
 }
 
 .head{
-    background-color: aqua;
-    width: 30%;
-    height: 70px;
+    padding: 1.5rem 1rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.sinistra{
+    justify-content: flex-end;
+}
+
+.ul-head{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 1rem;
+}
+
+.ul-head li{
+    margin: 0 0.4rem;
+
 }
 
 /*HERO*/
@@ -46,7 +74,7 @@ h1{
     margin-top: 100px;
     background-color: rgb(180, 208, 231);
     height: 500px;
-    padding-top: 4rem;
+
 }
 
 .hero{
@@ -174,6 +202,7 @@ h1{
 
 .square-box{
     width: calc(100% / 3);
+    height: 50%;
     display: flex;
     flex-wrap: wrap;
     height: 500px;
