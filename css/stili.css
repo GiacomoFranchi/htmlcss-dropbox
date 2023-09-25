@@ -88,6 +88,7 @@ h1{
     justify-content: space-between;
     background-color: orange;
     margin: 2rem 0;
+    flex-wrap: wrap;
 }
 
 .card{
@@ -115,4 +116,35 @@ h1{
     background-color: green;
     width: 39%;
     height: 300px;
+}
+
+/*SEZIONE D.BUSINESS*/
+.card3{
+    width: calc(100% / 3 - 4rem);
+    height: 200px;
+    margin: 2rem;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-card{
+    background-color: brown;
+    width: 90%;
+    height: 40%;
+}
+
+.p-card{
+    background-color: tomato;
+    width: 90%;
+    height: 59%;
+}
+
+.recta{
+    width: 100%;
+    background-color: gray;
+    margin: 4rem 0 ;
+    padding: 3rem 0;
 }
