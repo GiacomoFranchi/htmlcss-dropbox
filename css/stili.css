@@ -69,6 +69,7 @@ i{
 
 .rosso{
     color: rgb(97, 8, 43);
+    width: 60%;
 }
 
 .sottotitolo{
@@ -87,6 +88,13 @@ i{
     color: black;
     border: 1px solid black;
     padding: 1rem;
+}
+
+.no-bordi{
+    border-style:none ;
+    padding: 1rem 2.5rem;
+    margin-top: 1rem;
+    align-self: baseline;
 }
 
 .btn-bianco:hover{
@@ -410,10 +418,18 @@ transform: scale(1);
 
 
 /*SEZIONE DOMANDE*/
-.container-ask{
-    width: 60%;
+.container-try{
+    width: 100%;
     padding: 4rem 0;
-    margin: auto;
+    background-color: rgb(180, 208, 231);
+}
+
+.container-try div{
+    width: 60%;
+    margin: 2rem auto;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 /*FOOTER*/
@@ -421,6 +437,8 @@ transform: scale(1);
     width: 100%;
     background-color:black ;
 }
+
+
 
 .row-footer{
     width: 70%;
