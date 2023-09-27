@@ -40,7 +40,7 @@ i{
 }
 
 .margin1{
-    margin: 1rem 0;
+    margin-bottom: 2rem;
 }
 
 .margin2{
@@ -425,10 +425,10 @@ transform: scale(1);
 }
 
 
-/*SEZIONE DOMANDE*/
+/*SEZIONE PROVA GRATUITA*/
 .container-try{
     width: 100%;
-    padding: 4rem 0;
+    padding: 60px 0;
     background-color: rgb(180, 208, 231);
 }
 
@@ -438,6 +438,48 @@ transform: scale(1);
     font-size: 2rem;
     display: flex;
     justify-content: space-between;
+}
+
+/*SEZIONE DOMANDE*/
+.container-ask{
+    width: 100%;
+    padding: 60px 0;
+    background-color: white;
+}
+
+.box-ask{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.row-ask{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 0;
+    border-top: 1px solid black;
+}
+
+.p-visibile{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.p-nascosto{
+    display: none;
+}
+
+.row-ask:hover .p-nascosto{
+    display: block;
+}
+.row-ask:hover .ribaltato{
+    transform: rotate(180deg);
+}
+
+.box-ask:last-child{
+    border-bottom: 1px solid black;
 }
 
 /*FOOTER*/
@@ -497,4 +539,8 @@ transform: scale(1);
 
 .span-footer span{
     color: #999999;
+}
+
+.span-footer i{
+    padding-left: 0;
 }
