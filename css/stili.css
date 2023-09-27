@@ -9,7 +9,7 @@
 /*COMMON*/
 h1{
     font-size: 4rem;
-    margin: 2rem 0; 
+    margin: 32px 0; 
 }
 
 .link{
@@ -127,7 +127,7 @@ i{
     z-index: 999;
     top: 0;
     left: 0;
-    max-height: 70px;
+    max-height: 4.4rem;
     background-color: white;
 }
 
@@ -168,7 +168,7 @@ li a:hover{
     width: 100%;
     margin-top: 70px;
     background-color: rgb(180, 208, 231);
-    padding: 3rem 0 1rem; 
+    padding: 48px 0 16px; 
 }
 
 .hero{
@@ -217,7 +217,7 @@ main{
 .container{
     width: 60%;
     margin: 0 auto;
-    padding: 60px 0;
+    padding: 60px 0 ;
 }
 
 .box{
@@ -292,8 +292,11 @@ hr{
     padding: 1rem 0;
     display: flex;
     justify-content: flex-end;
-    position: relative;
-    top: -50px;
+}
+
+.card30 a{
+    align-self: baseline;
+    padding: 1rem 2.5rem;
 }
 
 .display-card{
@@ -344,8 +347,8 @@ transform: scale(1);
 
 .recta{
     width: 70%;
-    margin: 4rem 0 ;
-    padding: 3rem 0;
+    margin: 64px 0 ;
+    padding: 48px 0;
 }
 
 /*SEZIONE DESIGNIT*/
@@ -455,7 +458,7 @@ transform: scale(1);
 /*SEZIONE DOMANDE*/
 .container-ask{
     width: 100%;
-    padding: 60px 0;
+    padding: 100px 0;
     background-color: white;
 }
 
