@@ -284,6 +284,14 @@ hr{
     top: -50px;
 }
 
+.display-card{
+    display:flex;
+}
+
+.card-align{
+    text-align: inherit;
+    align-self: center;
+}
 /*SEZIONE PARTNER*/
 .img-partner{
     width: 60%;
@@ -304,7 +312,7 @@ hr{
 /*SEZIONE D.BUSINESS*/
 .card3{
     width: calc(100% / 3 - 4rem);
-    margin: 2rem  ;
+    margin: 2rem 0 ;
 }
 
 .img-card{
@@ -331,7 +339,6 @@ transform: scale(1);
 /*SEZIONE DESIGNIT*/
 .container-desi{
     width: 100%;
-    height: 500px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -341,8 +348,9 @@ transform: scale(1);
     width: calc(100% / 3);
     background-color: rgb(245, 245, 245);
     padding: 3rem 2rem;
-    max-height: 100%;
     overflow-y: scroll;
+    max-height: 100%;
+    aspect-ratio: 1 / 1;
 }
 
 .marchio{
@@ -365,7 +373,7 @@ transform: scale(1);
     height: 50%;
     display: flex;
     flex-wrap: wrap;
-    height: 500px;
+    aspect-ratio: 1 / 1;
 }
 
 .square{
